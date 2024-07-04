@@ -114,6 +114,25 @@ var apple = 50;
 apple--;
 console.log(apple);
 
+// ParseFloat
+parseFloat(20);
+parseFloat("30");
+parseFloat("3.14");
+parseFloat("32 23 44 55");
+parseFloat("3.15 This is numbers");
+
+
+// parseInt
+parseInt("10");
+parseInt("10.10");;
+parseInt("34 45 66");
+parseInt("65 apple");
+parseInt("sajib age 20");
+
+
+// toFixed
+var Numbers = 2.30349;
+var num = Numbers.toFixed(2);
 
 
 
